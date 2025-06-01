@@ -49,7 +49,7 @@ Visualisasi korelasi antar fitur telah dilakukan dengan heatmap untuk memahami h
 Tahapan data preparation meliputi:
 - Pengecekan nilai kosong (tidak ditemukan missing values).
 - Pemisahan fitur (X) dan target (y).
-- Normalisasi fitur menggunakan `StandardScaler` untuk mempercepat proses pelatihan model.
+- Standardisasi fitur menggunakan `StandardScaler` untuk mempercepat proses pelatihan model.
 - Pembagian data menjadi training dan test set (80:20 split).
 
 ## Modeling
