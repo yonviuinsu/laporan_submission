@@ -9,7 +9,6 @@ Dalam proyek ini, kami membangun model machine learning yang dapat memprediksi k
 **Referensi Ilmiah**:  
 Yeh, I.-C. (1998). *Modeling of strength of high-performance concrete using artificial neural networks.* Cement and Concrete Research, 28(12), 1797–1808. https://doi.org/10.1016/S0008-8846(98)00165-3
 
-Dataset diperoleh dari [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength).
 
 ## Business Understanding
 
@@ -28,6 +27,10 @@ Dataset diperoleh dari [UCI Machine Learning Repository](https://archive.ics.uci
 - Menerapkan **hyperparameter tuning** pada Random Forest menggunakan Grid Search untuk mendapatkan performa terbaik.
 
 ## Data Understanding
+Dataset yang digunakan dalam proyek ini adalah **Concrete Compressive Strength Dataset**, yang bersumber dari:
+
+📎 **Sumber Dataset**:  
+UCI Machine Learning Repository – [Concrete Compressive Strength](https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength)
 
 Dataset yang digunakan berasal dari UCI dan memiliki 1030 baris dan  9 kolom. Dataset ini tidak memiliki nilai kosong/missing value.
 
